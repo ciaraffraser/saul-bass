@@ -1,0 +1,279 @@
+/*--CSS Reset--*/
+*{
+    padding:0%;
+    margin:0%;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body{
+    background:#f7f7f7;
+    color: #333;
+}
+
+header, section, footer {
+    width:100%;
+    max-width: 800px;
+    margin:auto;
+    padding:0;
+}
+
+section{
+    margin-bottom:4rem;
+}
+
+.dark{
+    background:#5E3F34;
+    padding: 2em 0;
+}
+
+/*--Typographic styling--*/
+header h1{
+    margin-top:2rem;
+    margin-bottom: -2rem;
+    color:#61393d;
+    margin-top: -2em;
+    font-family: 'Staatliches', cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header h1{
+    line-height: 75px;
+    padding: 0.5em 0;
+    font-size:4rem;
+    margin-top:9rem;
+    margin-bottom:1.5rem;
+}
+header p{
+    padding:5rem;
+    font-size:1.3rem;
+    margin-top:1rem;
+    color:#AD323F;
+    font-family: 'fira-sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.dark h3 {
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    color:#E3987D;
+    margin-top:2.7rem;
+    padding:1em 0;
+}
+
+.dark p{
+    font-family:'fira-sans';
+    font-style: normal;
+    font-weight:normal;
+    color: #F7F7F7;
+}
+
+.dark blockquote{
+    font-family: 'fira-sans';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #E3987D;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+
+
+p{
+    color:#333;
+    padding:1em 0;
+    line-height:1.4;
+    font-family:"fira-sans";
+}
+
+h3{
+    font-size:1.999rem;
+    margin:3em 0 1em 0;
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    color:#E04050;
+    text-align:center;
+}
+
+.hollywood img{
+    margin-top: 2rem;
+}
+
+.motion hr{
+    margin: 25px 0;
+    height: 3px;
+    background-color:#5E3F34;
+    border: 0 none;
+}
+
+.motion p{
+    margin-bottom: 3.7rem;
+}
+
+
+.light{
+    background-color:#DF6437;
+    padding-bottom: 0em ;
+    margin:0px auto;
+}
+
+.light blockquote{
+    font-family:'fira-sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    color: #000000;
+    font-size: 2.7rem;
+    hanging-punctuation:first;
+    text-indent:-0.9rem;
+    padding:1em 0;
+}
+
+.cite p{
+    color:#000000;
+    font-family:'fira-sans', sans-serif;
+    font-style: italic;
+    text-align:center;
+   
+}
+
+.dark blockquote{
+    text-align:left;
+}
+
+.quote blockquote{
+    text-align: center;
+}
+
+
+
+.hitchcock hr{
+    margin: 25px 0;
+    height: 3px;
+    background-color:#5E3F34;
+    border: 0 none;
+    
+}
+
+.hitchcock p{
+    padding-bottom:5em;
+}
+
+
+
+
+.indent{
+    padding-left:4em;
+    font-style:italic;
+    color:#634646;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+.conclusion{
+    font-weight:bold;
+    font-size: 1.5rem;
+    padding:2em;
+    color:#333333;
+}
+
+a{
+    color:#634444;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#DE9B9B;
+    border-bottom:none;
+}
+
+
+/*--Styling Nav--*/
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0;
+    width:100%;
+    background:#E04050;
+    padding:3em 0;
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    font-size:1rem;
+}
+
+nav ul{
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+nav ul li{
+    display:inline;
+    margin:20px;
+}
+
+nav a{
+    color:#611C23;
+}
+
+nav a:hover{
+    border-bottom:none;
+    color:#E68791;
+    transition:all 0.3s ease-in-out;
+}
+
+
+
+/*--Image Control--*/
+
+img{
+    display:block;
+    padding:0;
+    max-width:100%;
+}
+
+.dark img{
+    display:block;
+    margin:0px auto;
+}
+
+.gridimage{
+    margin-top: 2.7rem;
+    margin-bottom: 2.7rem;
+    display:grid;
+    grid-gap:50px;
+    grid-template-columns:repeat(auto-fill, minmax(340px, 1fr));
+    
+}
+
+
+
+/*--Footer--*/
+
+.bibliography{
+    background-color:#E04050;
+    padding:2em;
+}
+
+footer a{
+    font-family:'fira-sans', sans-serif;
+    text-align:center;
+    font-size:0.75rem;
+    color:#E68791;
+    margin:4rem 0 3em 0;
+}
+
+footer p{
+    color:#E68791;
+    font-family:'fira-sans', sans-serif;
+    font-style: italic;
+    font-size:small;
+}
+
+.top p{
+    text-align:center;
+}
+
